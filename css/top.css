@@ -1,0 +1,316 @@
+*{margin:0px;padding:0px;border:0px;}
+    div{
+	      line-height: 19px;
+          text-align: left;
+		  font-size:12px;
+	    }
+	.headArea{
+				height: 40px;
+				position: relative;
+			    padding:5px;
+	         }
+	#head{
+			background: url("../imga/headbg.png") repeat-x ;
+			height: 42px;
+			left: 0;
+			top: 0;
+			width: 100%;	
+			padding:0px;
+	     }
+	.hd{
+	       margin: 0 auto;
+           width: 950px;
+		    }
+	.logo{
+			background: url("../imga/logo.png") no-repeat ;
+			display: inline;
+			float: left;
+			height: 40px;
+			margin: 5px 25px 0 10px;
+			width: 110px;
+	     }
+		 #head .logo a { 
+							display: block;
+							height: 30px;
+						}
+		.headRight div{
+				        color: #CCCCCC;
+						float: right;
+						margin: 0px 2px 1px 0px;
+				  }
+
+		.hasSub{
+					position:relative;
+					line-height:35px;
+				}
+		#more_sub { 
+					left: auto;
+					right: 0px;
+					width: 201px;
+				  }
+					
+		.headSub { 
+					background: #FAFAFA;
+					border-bottom: 1px solid #9B9B9B;
+					border-left: 1px solid #CECECE;
+					border-right: 1px solid #9B9B9B;
+					border-top: 1px solid #CECECE;
+					padding: 0px;
+					position: absolute;
+					top: 40px;
+				 }
+					
+	ul, dl, ol { 
+					list-style: none outside none;
+				}
+			 .hasSub a:link{
+						text-decoration: none; color: #D9D9F3;     
+				   }
+			.hasSub a:visited { text-decoration: none; color: #D9D9F3; } 
+			.hasSub a:hover b{  text-decoration: none; 
+								color: white;
+							  }
+			.headLink b{
+							display: inline-table;
+							height: 15px;
+							line-height: 15px;
+							font-weight: 200;
+							padding: 12px 2px;
+							font-size: 12px;
+						}
+
+      .style1
+      {
+          position: relative;
+          left: 3px;
+          top: -19px;
+      }
+
+	  .c{
+		clear:both;
+	  }
+	  #center{
+	        margin: 0px auto;
+            width: 950px;
+            padding-top: 41px;
+            height: 596px;
+	  }
+	  #centerLeft{
+	        float: left;
+            width: 490px;
+            height: 560px;
+            margin: 29px 0px 0px 74px;
+            display: inline;          
+	  }
+	  .clTitle
+	  {
+			position: relative;
+			background:url("../imga/step8.png");
+			height: 22px;
+			width: 315px;
+	  }
+	  .leftbox 
+	  {
+            padding-left: 0;
+            margin-top:25px;
+        }
+        .accounts
+        {
+        	float: left;
+            _float: none;
+            width: 100%;
+            margin-bottom: 20px;  
+            _margin-bottom: 16px;
+        	}
+       .reg_element 
+       {
+            float: left;
+            width: 240px;
+           _width: 260px;
+            position: relative;
+            }
+        .inp_box
+        {
+                display: table;
+                border: 1px solid #BBB;
+                margin-bottom: 4px;
+                _zoom: 1;
+                }
+        .txt {
+                width: 230px;
+                height: 17px;
+                border: 1px solid white;
+                line-height: 15px	9;
+                _line-height: 17px;
+        }
+        .c9 {
+            color: #999;
+            font-family: Arial;
+        }
+        .s12 {
+            color: #369;
+            text-decoration: none;
+            font-family: Arial;
+        }
+        li {
+            float: left;
+            width: 100%;
+            margin-bottom: 20px;
+            margin-bottom: 16px;
+        } 
+        .password {
+            margin-top: 0px;
+            _margin-top: -1px;
+        }
+        .address
+        {
+        	width:120px;
+        	height:17px;
+        	border:1px solid #D9D9F3;
+        	}
+        .piaozuo
+        {
+        	float:left;
+        	}
+        .youbian
+        {
+        	float:left;
+        	margin-right:10px;
+        	}  
+        .zuobian
+        {
+        	float:left;
+        	margin-left:10px;
+        	} 
+        .submitb
+        {
+        	text-align: center;
+        	padding-top: 0px;
+        	width:96px;
+        	height:23px;
+        	background: #D32C47;
+        	border: 1px white solid;
+        	border-color:white #951428 #951428 white;       	
+        	color:White;
+        	font-size:14px;
+        	line-height: 18px;
+        	font-family: sans-serif;
+        	
+        	}   
+	  #centerRight{
+	        float: left;
+            width: 321px;
+			height: 383px;
+			margin: 38px 50px 10px 0px;
+            border: 1px solid rgb(238, 238, 238);
+            display: inline;
+
+	  }
+	  .f14{
+			display: block;
+			padding: 21px 0 30px 30px;
+			font-size:14px;
+	  }
+	  .login{
+			margin-left: 30px;
+			margin-top: 12px;
+			float:left;
+			height:62px;
+	  }
+	  #qqlogin{
+			background:url("../imga/qq.jpg");
+			display: block;
+			float: left;
+			height: 62px;
+			width: 62px;
+			margin-right:10px;
+	  }
+	  #tianlogin{
+			background:url("../imga/tian.jpg");
+			display: block;
+			float: left;
+			height: 62px;
+			width: 62px;
+			margin-right:10px;
+	  }
+	  #msnlogin{
+			background:url("../imga/msn.jpg");
+			display: block;
+			float: left;
+			height: 62px;
+			width: 62px;
+			margin-right:10px;
+	  }
+	  #weibologin{
+			background:url("../imga/weibo.jpg");
+			display: block;
+			float: left;
+			height: 62px;
+			width: 62px;
+			margin-right:10px;
+	  }
+
+	  .detialBox{
+			background:url("../imga/reg_count2.png");
+			height: 190px;
+			width: 351px;
+	  }
+	  #bottom{
+			width:950px;
+			margin:0 auto;
+			position:relative;
+			font-size:13;		
+			padding:0 0 30px 0;
+	                border-top:1px solid;
+			margin-bottom:20px;
+	  }
+	  .bottomTop{
+			clear:both;
+			display: block;
+			font-size:o;
+			height:40px;
+			line-height:0;
+			position:relative;
+	  }
+	  #left{
+			float:left;
+			line-height: 40px;
+			margin-left:2px;
+			font-size:13px;
+	  }
+	  .a{
+			margin:0 10px 0 0;
+	  }
+	  a:link{
+			text-decoration: none; color: #20B2AA;     
+		 }
+	  a:hover {  text-decoration: underline; }
+
+	  #right{
+			float:right;
+			font-size:13px;
+			color: #666666;
+			line-height:40px;
+	  }
+	  .bottomB{
+			background: none repeat scroll 0 0 #F0EFEF;
+			color: #999999;
+			height: 27px;
+			position:relative;
+			line-height: 27px;
+			text-align:left;
+	  }
+	  .cominfo{
+			margin-right:30px;
+			padding-left:50px;
+
+	  }
+	  .span{
+			margin-left:15px;
+			padding-left:15px;
+	   }
+	  .c6{
+			margin-left: 30px;
+			color: #666666;
+			font-family: Arial;
+	  }
